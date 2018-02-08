@@ -9,7 +9,7 @@ const App = () => {
   return(
     <Provider store={createStore(reducers)}>
       <View>
-        <Header headerText="Tech Stack" />//New comment
+        <Header headerText="Tech Stack" />
       </View>
     </Provider>
   );
